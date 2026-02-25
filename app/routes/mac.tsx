@@ -40,6 +40,14 @@ export default function MacPage() {
       )
     },
     {
+      title: "Alternative Option",
+      content: (
+        <div className="text-center px-4">
+          <p className="text-[16px]"><a href="/downloads/macos-mobility-print-printer-setup-1.0.78.dmg" className="text-[#6b46c1] underline" download target="_blank" rel="noopener noreferrer">Download the macOS Mobility Print installer</a></p>
+        </div>
+      )
+    },
+    {
       title: "Tips",
       content: (
         <div className="flex text-left border-l-4 border-[#a2d033] bg-slate-50/50 p-4 -mx-4">

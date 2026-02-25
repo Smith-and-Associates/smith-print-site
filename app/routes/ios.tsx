@@ -37,6 +37,14 @@ export default function IosPage() {
           </ol>
         </div>
       )
+    },
+    {
+      title: "Extra: Configuration Profile",
+      content: (
+        <div className="text-center px-4">
+          <p className="text-[16px]"><a href="/downloads/ios-mobility-print-profile.mobileconfig" className="text-[#6b46c1] underline" download target="_blank" rel="noopener noreferrer">Download the IOS Mobility Print Configuration Profile</a></p>
+        </div>
+      )
     }
   ];
 
