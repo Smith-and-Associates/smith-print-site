@@ -8,7 +8,8 @@ export default function Index() {
   useEffect(() => {
     // 1. Initialize the parser
     const parser = new UAParser();
-    const os = parser.getOS().name; // Returns names like 'Windows', 'Mac OS', 'iOS', 'Android', 'Chromium OS'
+    const os = parser.getOS().name;
+    console.log("Detected OS:", os);
 
     // 2. Routing Logic
     switch (os) {
@@ -42,3 +43,27 @@ export default function Index() {
     </div>
   );
 }
+
+function detectPlatform() {
+  const ua = navigator.userAgent || '';
+  const platform = (navigator.platform || '').toLowerCase();
+
+  // Prefer User-Agent Client Hints when available
+  // @ts-ignore
+  const hinted = (navigator.userAgentData && navigator.userAgentData.platform) || '';
+  if (hinted) return hinted.toLowerCase();
+
+  // iPadOS reports "MacIntel" on recent iPadOS — differentiate by touch capability
+  if (platform.includes('mac') && navigator.maxTouchPoints && navigator.maxTouchPoints > 1) {
+    return 'ios';
+  }
+
+  if (/mac|macintosh|mac os x/.test(platform) || /mac os x/.test(ua)) return 'mac';
+  if (/iphone|ipad|ipod/.test(ua)) return 'ios';
+  if (/android/.test(ua)) return 'android';
+  if (/cros/.test(ua) || /chrome os/.test(ua)) return 'chromebook';
+  return 'pc';
+}
+
+const platform = detectPlatform(); // 'mac'|'ios'|'android'|'chromebook'|'pc'
+navigate(`/${platform}`); // or map to your route names
