@@ -17,6 +17,12 @@ export default function Index() {
       case "Mac OS":
         navigate("/mac");
         break;
+      case "MacOS":
+        navigate("/mac");
+        break;
+      case "macOS":
+        navigate("/mac");
+        break;
       case "iOS":
         navigate("/ios");
         break;
