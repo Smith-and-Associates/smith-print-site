@@ -11,7 +11,7 @@ export default function AndroidPage() {
             href="https://play.google.com/store/apps/details?id=com.papercut.projectbanksia"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-[#248a24] hover:bg-[#1e701e] text-white font-bold py-2.5 px-8 rounded shadow-md transition-all no-underline"
+            className="inline-block bg-[#F37021] hover:bg-[#F37021] text-white font-bold py-2.5 px-8 rounded shadow-md transition-all no-underline"
           >
             Install Mobility Print
           </a>

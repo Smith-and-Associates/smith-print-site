@@ -13,7 +13,7 @@ export default function ChromebookPage() {
             href="https://chromewebstore.google.com/detail/ndakideadaglgpbblmppfonobpdgggin?utm_source=item-share-cb"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-[#248a24] hover:bg-[#1e701e] text-white font-bold py-2.5 px-8 rounded shadow-md transition-all no-underline"
+            className="inline-block bg-[#F37021] hover:bg-[#F37021] text-white font-bold py-2.5 px-8 rounded shadow-md transition-all no-underline"
           >
             Add Mobility Print to Chrome
           </a>

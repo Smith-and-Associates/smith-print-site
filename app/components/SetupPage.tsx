@@ -27,7 +27,7 @@ export default function SetupPage({ title, steps, currentOS, footerText }: Setup
       
       {/* PaperCut Arrow Logo */}
       <div className="mb-6">
-        <svg width="40" height="40" viewBox="0 0 100 100" className="text-[#5cb85c]">
+        <svg width="40" height="40" viewBox="0 0 100 100" className="text-[#F37021]">
           <path fill="currentColor" d="M20 10 L80 50 L20 90 L40 50 Z" />
         </svg>
       </div>

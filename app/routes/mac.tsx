@@ -7,7 +7,7 @@ export default function MacPage() {
       content: (
         <div className="w-full aspect-video rounded-lg overflow-hidden bg-black mb-2 relative">
           <iframe
-            src="https://www.youtube.com/embed/Jw_uEQ9vgNw?si=KiafMWORVM4Cgo22"
+            src="https://www.youtube.com/embed/DAzB6l7uH4s"
             title="YouTube video player"
             className="absolute inset-0 w-full h-full"
             frameBorder="0"
@@ -50,15 +50,15 @@ export default function MacPage() {
     {
       title: "Tips",
       content: (
-        <div className="flex text-left border-l-4 border-[#a2d033] bg-slate-50/50 p-4 -mx-4">
+        <div className="flex text-left border-l-4 border-[#F37021] bg-slate-50/50 p-4 -mx-4">
           <div className="flex p-2 items-start gap-6">
             <ul className="flex-1 space-y-4 text-[14px] text-[#4a5568]">
               <li className="relative pl-4">
-                <span className="absolute left-0 text-[#a2d033] font-bold">•</span>
+                <span className="absolute left-0 text-[#F37021] font-bold">•</span>
                 If you're not sure how to print, take a look at <a href="https://support.apple.com/en-au/HT204135" target="_blank" className="text-[#6b46c1] underline decoration-1 underline-offset-2">Print from your Mac</a>.
               </li>
               <li className="relative pl-4">
-                <span className="absolute left-0 text-[#a2d033] font-bold">•</span>
+                <span className="absolute left-0 text-[#F37021] font-bold">•</span>
                 If your job doesn't print, check the Print Queue.
                 <ol className="mt-2 ml-4 space-y-2 list-decimal">
                   <li>Click the retry icon.</li>
