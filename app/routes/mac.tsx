@@ -7,7 +7,7 @@ export default function MacPage() {
       content: (
         <div className="w-full aspect-video rounded-lg overflow-hidden bg-black mb-2 relative">
           <iframe
-            src="https://www.youtube.com/embed/DAzB6l7uH4s"
+            src="https://www.youtube.com/embed/ZqEO5-SDB8Y"
             title="YouTube video player"
             className="absolute inset-0 w-full h-full"
             frameBorder="0"
