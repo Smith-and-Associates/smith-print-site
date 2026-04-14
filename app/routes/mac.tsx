@@ -3,22 +3,6 @@ import SetupPage from "../components/SetupPage";
 export default function MacPage() {
   const macSteps = [
     {
-      title: "Video Guide",
-      content: (
-        <div className="w-full aspect-video rounded-lg overflow-hidden bg-black mb-2 relative">
-          <iframe
-            src="https://www.youtube.com/embed/ZqEO5-SDB8Y"
-            title="YouTube video player"
-            className="absolute inset-0 w-full h-full"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          ></iframe>
-        </div>
-      )
-    },
-    {
       title: "Set up",
       content: (
         <div className="text-left px-4">
@@ -36,6 +20,22 @@ export default function MacPage() {
               Click <span className="font-bold">Add</span> and you're ready to print!
             </li>
           </ol>
+        </div>
+      )
+    },
+    {
+      title: "Video Guide",
+      content: (
+        <div className="w-full aspect-video rounded-lg overflow-hidden bg-black mb-2 relative">
+          <iframe
+            src="https://www.youtube.com/embed/ZqEO5-SDB8Y"
+            title="YouTube video player"
+            className="absolute inset-0 w-full h-full"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
         </div>
       )
     },
