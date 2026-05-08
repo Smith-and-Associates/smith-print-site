@@ -24,6 +24,30 @@ export default function MacPage() {
       )
     },
     {
+      title: "Alternative Option",
+      content: (
+        <>
+          <p className="mb-6">If the above method doesn't work, please download Mobility Print.</p>
+          <a 
+            href="https://mp.cloud.papercut.com/?token=eyJhbGciOiJSUzI1NiIsIm9yZyI6Im9yZy0yNVJHQkJNSCIsInNydiI6InNydi1aVk1LNVpLSyIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NzMxNzEzNDYsImlzcyI6InNydi1aVk1LNVpLSyIsImp0aSI6IkFMOEIxWFQ3IiwibG5rIjoiQUw4QjFYVDciLCJvcmciOiJvcmctMjVSR0JCTUgiLCJzcnYiOiJzcnYtWlZNSzVaS0siLCJzdWIiOiJ0b2tlbkNyZWF0aW9uIn0.b1W96lD7Sab8X5vWBwSR9i5lGO1QK9OgCyoYdZijU5R2Iq81jik5MgyRtwlSVAH5ZY4GQeuHbi2oftMtG5VI4fFjqDbSJ0WMS4-nHLeRH5dgXZ_mM5LYh0BMNbE0iFakX48Agb6sD4ka9z8vhnhcOvp_gI_7MKuW7K9ngvvlfhhV1WZa-J3CZaKXHvHu87A_rqBtwyom8qvw4FlKFj8jhrahQXUvhEqi2PkwDdudHO-QNYCwXxpzpyg0gGLrcnciGUwXnuHGuq5z5V418NLLcyACbIDfJXIxtFDa2VD2VmEMD-lnE2gTbieBnj41Gn_fg-NAUEv5KAYESqybnc4ddFPtFUzwfOOvKCmhHjmQLSAgtUkObwRyqB-2xzzk2fTuEdSrzADJXIk8mhNhw58uQepXUJX1jpshh6v0w7CUNsddXzRZ7C-0p8I_MaRD1SQ5NMjX4ppsm4f9pFB4uSowRjHmJ0lLnfG5FdyvFcK3hIeGfw1zoWO83HwjejTIlZHLnwaMAVfKvAZgQzk72HlrygmoFPSZXRLs9L_jvvfMCIqjZ_PhBsXnx_HJL-Othq6PO8G6Ta5idLwRzPQVR8QhTBlB3XWaZIbMkUKPBPWb_EjIShLmd2DhxN04edHnYY37aCA84n-tiqCJkfXLEnXZDPCwr8qbF4SNz8EMCASnRQA" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-block bg-[#F37021] hover:bg-[#F37021] text-white font-bold py-2.5 px-8 rounded shadow-md transition-all no-underline"
+          >
+            Download Mobility Print
+          </a>
+        </>
+      )
+    },
+    //     {
+    //   title: "Alternative Option",
+    //   content: (
+    //     <div className="text-center px-4">
+    //       <p className="text-[16px]"><a href="https://mp.cloud.papercut.com/?token=eyJhbGciOiJSUzI1NiIsIm9yZyI6Im9yZy0yNVJHQkJNSCIsInNydiI6InNydi1aVk1LNVpLSyIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NzMxNzEzNDYsImlzcyI6InNydi1aVk1LNVpLSyIsImp0aSI6IkFMOEIxWFQ3IiwibG5rIjoiQUw4QjFYVDciLCJvcmciOiJvcmctMjVSR0JCTUgiLCJzcnYiOiJzcnYtWlZNSzVaS0siLCJzdWIiOiJ0b2tlbkNyZWF0aW9uIn0.b1W96lD7Sab8X5vWBwSR9i5lGO1QK9OgCyoYdZijU5R2Iq81jik5MgyRtwlSVAH5ZY4GQeuHbi2oftMtG5VI4fFjqDbSJ0WMS4-nHLeRH5dgXZ_mM5LYh0BMNbE0iFakX48Agb6sD4ka9z8vhnhcOvp_gI_7MKuW7K9ngvvlfhhV1WZa-J3CZaKXHvHu87A_rqBtwyom8qvw4FlKFj8jhrahQXUvhEqi2PkwDdudHO-QNYCwXxpzpyg0gGLrcnciGUwXnuHGuq5z5V418NLLcyACbIDfJXIxtFDa2VD2VmEMD-lnE2gTbieBnj41Gn_fg-NAUEv5KAYESqybnc4ddFPtFUzwfOOvKCmhHjmQLSAgtUkObwRyqB-2xzzk2fTuEdSrzADJXIk8mhNhw58uQepXUJX1jpshh6v0w7CUNsddXzRZ7C-0p8I_MaRD1SQ5NMjX4ppsm4f9pFB4uSowRjHmJ0lLnfG5FdyvFcK3hIeGfw1zoWO83HwjejTIlZHLnwaMAVfKvAZgQzk72HlrygmoFPSZXRLs9L_jvvfMCIqjZ_PhBsXnx_HJL-Othq6PO8G6Ta5idLwRzPQVR8QhTBlB3XWaZIbMkUKPBPWb_EjIShLmd2DhxN04edHnYY37aCA84n-tiqCJkfXLEnXZDPCwr8qbF4SNz8EMCASnRQA" className="text-[#6b46c1] underline" target="_blank" rel="noopener noreferrer">Download the macOS Mobility Print installer</a></p>
+    //     </div>
+    //   )
+    // },
+    {
       title: "Video Guide",
       content: (
         <div className="w-full aspect-video rounded-lg overflow-hidden bg-black mb-2 relative">
@@ -40,34 +64,35 @@ export default function MacPage() {
       )
     },
     {
-      title: "Alternative Option",
+      title: "Specialty USB Printing (Feed Tray)",
       content: (
-        <div className="text-center px-4">
-          <p className="text-[16px]"><a href="https://mp.cloud.papercut.com/?token=eyJhbGciOiJSUzI1NiIsIm9yZyI6Im9yZy0yNVJHQkJNSCIsInNydiI6InNydi1aVk1LNVpLSyIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NzMxNzEzNDYsImlzcyI6InNydi1aVk1LNVpLSyIsImp0aSI6IkFMOEIxWFQ3IiwibG5rIjoiQUw4QjFYVDciLCJvcmciOiJvcmctMjVSR0JCTUgiLCJzcnYiOiJzcnYtWlZNSzVaS0siLCJzdWIiOiJ0b2tlbkNyZWF0aW9uIn0.b1W96lD7Sab8X5vWBwSR9i5lGO1QK9OgCyoYdZijU5R2Iq81jik5MgyRtwlSVAH5ZY4GQeuHbi2oftMtG5VI4fFjqDbSJ0WMS4-nHLeRH5dgXZ_mM5LYh0BMNbE0iFakX48Agb6sD4ka9z8vhnhcOvp_gI_7MKuW7K9ngvvlfhhV1WZa-J3CZaKXHvHu87A_rqBtwyom8qvw4FlKFj8jhrahQXUvhEqi2PkwDdudHO-QNYCwXxpzpyg0gGLrcnciGUwXnuHGuq5z5V418NLLcyACbIDfJXIxtFDa2VD2VmEMD-lnE2gTbieBnj41Gn_fg-NAUEv5KAYESqybnc4ddFPtFUzwfOOvKCmhHjmQLSAgtUkObwRyqB-2xzzk2fTuEdSrzADJXIk8mhNhw58uQepXUJX1jpshh6v0w7CUNsddXzRZ7C-0p8I_MaRD1SQ5NMjX4ppsm4f9pFB4uSowRjHmJ0lLnfG5FdyvFcK3hIeGfw1zoWO83HwjejTIlZHLnwaMAVfKvAZgQzk72HlrygmoFPSZXRLs9L_jvvfMCIqjZ_PhBsXnx_HJL-Othq6PO8G6Ta5idLwRzPQVR8QhTBlB3XWaZIbMkUKPBPWb_EjIShLmd2DhxN04edHnYY37aCA84n-tiqCJkfXLEnXZDPCwr8qbF4SNz8EMCASnRQA" className="text-[#6b46c1] underline" target="_blank" rel="noopener noreferrer">Download the macOS Mobility Print installer</a></p>
-        </div>
+        <>
+          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0 }}>
+            <iframe
+              src="https://docs.google.com/presentation/d/1r5Wi8FJlpEua0RzuksiiVUmhCeoz3MokNhELO1LAomM/embed"
+              title="Specialty USB Printing (Feed Tray)"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
+            />
+          </div>
+        </>
       )
     },
     {
-      title: "Tips",
+      title: "Adding Printer by IP Address",
       content: (
-        <div className="flex text-left border-l-4 border-[#F37021] bg-slate-50/50 p-4 -mx-4">
-          <div className="flex p-2 items-start gap-6">
-            <ul className="flex-1 space-y-4 text-[14px] text-[#4a5568]">
-              <li className="relative pl-4">
-                <span className="absolute left-0 text-[#F37021] font-bold">•</span>
-                If you're not sure how to print, take a look at <a href="https://support.apple.com/en-au/HT204135" target="_blank" className="text-[#6b46c1] underline decoration-1 underline-offset-2">Print from your Mac</a>.
-              </li>
-              <li className="relative pl-4">
-                <span className="absolute left-0 text-[#F37021] font-bold">•</span>
-                If your job doesn't print, check the Print Queue.
-                <ol className="mt-2 ml-4 space-y-2 list-decimal">
-                  <li>Click the retry icon.</li>
-                  <li>Re-type your credentials.</li>
-                </ol>
-              </li>
-            </ul>
+        <>
+          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0 }}>
+            <iframe
+              src="https://docs.google.com/presentation/d/1B1-diPb-W3ccsQi7cHEAHYryGEqXmi4tAMAfsHQkXrQ/embed"
+              title="Adding Printer by IP Address"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
+            />
           </div>
-        </div>
+        </>
       )
     }
   ];
