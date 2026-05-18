@@ -10,7 +10,7 @@ export default function ChromebookPage() {
             To access your organization's printer, first add Mobility Print to Chrome.
           </p>
           <a 
-            href="https://chromewebstore.google.com/detail/ndakideadaglgpbblmppfonobpdgggin?utm_source=item-share-cb"
+            href="https://chrome.google.com/webstore/detail/mobility-print/ndakideadaglgpbblmppfonobpdgggin"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-[#F37021] hover:bg-[#F37021] text-white font-bold py-2.5 px-8 rounded shadow-md transition-all no-underline"
