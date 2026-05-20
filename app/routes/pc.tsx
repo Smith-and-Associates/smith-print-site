@@ -55,10 +55,11 @@ export default function PcPage() {
       title: "Adding Printer by IP Address",
       content: (
         <>
+          <p className="mb-4">Watch this short tutorial for a visual walkthrough:</p>
           <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0 }}>
             <iframe
-              src="https://docs.google.com/presentation/d/1B1-diPb-W3ccsQi7cHEAHYryGEqXmi4tAMAfsHQkXrQ/embed"
-              title="Adding Printer by IP Address"
+              src="https://www.youtube.com/embed/yFBxsQq44wk?si=1Y82Odz2hz5Kh1nE"
+              title="Mobility Print Tutorial"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
