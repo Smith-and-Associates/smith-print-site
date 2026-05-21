@@ -39,7 +39,7 @@ export default function PcPage() {
       title: "Adding Printer by IP Address",
       content: (
         <>
-          <p className="mb-4">Watch this short tutorial for a visual walkthrough:</p>
+          {/* <p className="mb-4">Watch this short tutorial for a visual walkthrough:</p> */}
           <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0 }}>
             <iframe
               src="https://www.youtube.com/embed/sN_CtoW0PaA?si=rwSRjFN9CtjmD0tk"
