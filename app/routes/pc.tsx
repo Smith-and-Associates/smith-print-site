@@ -58,7 +58,7 @@ export default function PcPage() {
           <p className="mb-4">Watch this short tutorial for a visual walkthrough:</p>
           <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0 }}>
             <iframe
-              src="https://www.youtube.com/embed/yFBxsQq44wk?si=1Y82Odz2hz5Kh1nE"
+              src="https://www.youtube.com/embed/sN_CtoW0PaA?si=rwSRjFN9CtjmD0tk"
               title="Mobility Print Tutorial"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
