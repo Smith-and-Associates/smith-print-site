@@ -64,22 +64,6 @@ export default function MacPage() {
       )
     },
     {
-      title: "Specialty USB Printing (Feed Tray)",
-      content: (
-        <>
-          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0 }}>
-            <iframe
-              src="https://docs.google.com/presentation/d/1r5Wi8FJlpEua0RzuksiiVUmhCeoz3MokNhELO1LAomM/embed"
-              title="Specialty USB Printing (Feed Tray)"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
-            />
-          </div>
-        </>
-      )
-    },
-    {
       title: "Adding Printer by IP Address",
       content: (
         <>
@@ -93,6 +77,22 @@ export default function MacPage() {
             referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
           ></iframe>
+          </div>
+        </>
+      )
+    },
+    {
+      title: "Specialty USB Printing (Feed Tray)",
+      content: (
+        <>
+          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0 }}>
+            <iframe
+              src="https://docs.google.com/presentation/d/1r5Wi8FJlpEua0RzuksiiVUmhCeoz3MokNhELO1LAomM/embed"
+              title="Specialty USB Printing (Feed Tray)"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
+            />
           </div>
         </>
       )

@@ -36,13 +36,14 @@ export default function PcPage() {
       )
     },
     {
-      title: "Specialty USB Printing (Feed Tray)",
+      title: "Adding Printer by IP Address",
       content: (
         <>
+          <p className="mb-4">Watch this short tutorial for a visual walkthrough:</p>
           <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0 }}>
             <iframe
-              src="https://docs.google.com/presentation/d/1r5Wi8FJlpEua0RzuksiiVUmhCeoz3MokNhELO1LAomM/embed"
-              title="Specialty USB Printing (Feed Tray)"
+              src="https://www.youtube.com/embed/sN_CtoW0PaA?si=rwSRjFN9CtjmD0tk"
+              title="Mobility Print Tutorial"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
@@ -52,14 +53,13 @@ export default function PcPage() {
       )
     },
     {
-      title: "Adding Printer by IP Address",
+      title: "Specialty USB Printing (Feed Tray)",
       content: (
         <>
-          <p className="mb-4">Watch this short tutorial for a visual walkthrough:</p>
           <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0 }}>
             <iframe
-              src="https://www.youtube.com/embed/sN_CtoW0PaA?si=rwSRjFN9CtjmD0tk"
-              title="Mobility Print Tutorial"
+              src="https://docs.google.com/presentation/d/1r5Wi8FJlpEua0RzuksiiVUmhCeoz3MokNhELO1LAomM/embed"
+              title="Specialty USB Printing (Feed Tray)"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
