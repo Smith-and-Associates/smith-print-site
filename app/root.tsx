@@ -37,9 +37,6 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
         <body>
-          <div className="h-12 flex items-center justify-center group">
-            <p className="text-center text-sm text-slate-500 py-2 opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-opacity">If site maintenance needed contact the creator Evan Frabell</p>
-          </div>
         {children}
         <ScrollRestoration />
         <Scripts />
