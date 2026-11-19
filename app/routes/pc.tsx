@@ -36,6 +36,33 @@ export default function PcPage() {
       )
     },
     {
+      title: "Advanced Setup (Staff)",
+      content: (
+        <>
+          <p className="mb-6">Download the Windows printer setup package.</p>
+          <a
+            href="/downloads/PC-Printer-Setup.zip"
+            download
+            className="inline-block bg-[#F37021] hover:bg-[#F37021] text-white font-bold py-2.5 px-8 rounded shadow-md transition-all no-underline"
+          >
+            Download PC Printer Setup
+          </a>
+          <div className="mt-6 text-left bg-amber-50 border-l-4 border-amber-500 text-amber-900 p-4 rounded text-[15px]">
+            <p className="font-bold mb-2">Heads up: you may see a "Windows protected your PC" warning</p>
+            <p className="mb-2">
+              This blue box comes from Microsoft Defender SmartScreen. Windows tags downloaded files with a
+              "Mark of the Web," which triggers the warning. To remove the tag before running the setup:
+            </p>
+            <ol className="list-decimal pl-5 space-y-1">
+              <li>Right-click the downloaded <span className="font-bold">PC-Printer-Setup.zip</span> and choose <span className="font-bold">Properties</span>.</li>
+              <li>At the bottom of the <span className="font-bold">General</span> tab, check <span className="font-bold">Unblock</span>, then click <span className="font-bold">OK</span>.</li>
+              <li>Extract the zip and run the setup.</li>
+            </ol>
+          </div>
+        </>
+      )
+    },
+    {
       title: "Adding Printer by IP Address",
       content: (
         <>

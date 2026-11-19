@@ -64,6 +64,34 @@ export default function MacPage() {
       )
     },
     {
+      title: "Advanced Setup (Staff)",
+      content: (
+        <>
+          <p className="mb-6">Download the Mac printer setup package.</p>
+          <a
+            href="/downloads/Mac-Printer-Setup.zip"
+            download
+            className="inline-block bg-[#F37021] hover:bg-[#F37021] text-white font-bold py-2.5 px-8 rounded shadow-md transition-all no-underline"
+          >
+            Download Mac Printer Setup
+          </a>
+          <div className="mt-6 text-left bg-amber-50 border-l-4 border-amber-500 text-amber-900 p-4 rounded text-[15px]">
+            <p className="font-bold mb-2">Heads up: macOS may block the file from opening</p>
+            <p className="mb-2">
+              Gatekeeper may say the file "cannot be opened because the developer cannot be verified" or
+              "Apple could not verify it is free of malware." This happens because macOS puts a quarantine
+              flag on downloaded files. To get past it:
+            </p>
+            <ol className="list-decimal pl-5 space-y-1">
+              <li>Click <span className="font-bold">Done</span> (or <span className="font-bold">OK</span>) to close the warning.</li>
+              <li>Go to <span className="font-bold">System Settings &gt; Privacy &amp; Security</span> and scroll down to the <span className="font-bold">Security</span> section.</li>
+              <li>Click <span className="font-bold">Open Anyway</span>, then confirm with your password if asked.</li>
+            </ol>
+          </div>
+        </>
+      )
+    },
+    {
       title: "Adding Printer by IP Address",
       content: (
         <>
